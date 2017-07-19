@@ -1,2 +1,9 @@
-﻿body {
+﻿#logoImg{
+    width:200px;
+}
+div.page-header{
+    margin-top:0px;
+    background-color:#E8D6CF;
+    padding-top:3px;
+    margin-bottom:0px;
 }
