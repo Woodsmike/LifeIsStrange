@@ -1,4 +1,8 @@
-﻿#logoImg{
+﻿/*General Styling*/
+body{
+    background-color:#FFF6F0;
+}
+#logoImg{
     width:200px;
 }
 div.page-header{
@@ -26,4 +30,8 @@ nav#navvy.navbar.navbar-static-top {
 }
 h1.container#trailer {
     text-align:right;
+}
+/*preview section*/
+.previewThem {
+    margin:auto;
 }
