@@ -1,41 +1,46 @@
 ﻿/*General Styling*/
-body{
-    background-color:#FFF6F0;
+body {
+    background-color: #FFF6F0;
 }
-#logoImg{
-    width:200px;
+
+#logoImg {
+    width: 200px;
 }
-div.page-header{
-    margin-top:0px;
-    background-color:#E8D6CF;
-    padding-top:3px;
-    margin-bottom:0px;
+
+div.page-header {
+    margin-top: 0px;
+    background-color: #E8D6CF;
+    padding-top: 3px;
+    margin-bottom: 0px;
 }
 /*navbar styling*/
 nav#navvy.navbar.navbar-static-top {
     margin-bottom: 0px;
     background-color: #6A1525;
     color: #FFF6F0;
-    
 }
+
 #navvy a {
     color: #FFF6F0;
 }
-#navvy a:hover{
-    background:none;
-}
-/*trailer section*/
+
+    #navvy a:hover {
+        background: none;
+    }
+
 .mainSec {
     background-image: url('images/junkyard.jpg');
-    background-size:cover;
+    background-size: cover;
 }
+
 h1.container#trailer {
-    text-align:right;
+    text-align: right;
 }
 /*preview section*/
 .previewThem {
-    margin:auto;
+    margin: auto;
 }
+
 .navbar navbar-static-top {
     overflow: hidden;
     background-color: #333;
@@ -87,4 +92,12 @@ h1.container#trailer {
             display: block;
             text-align: left;
         }
+}
+
+button.navbar-toggle {
+    border: 1px solid #FFF6F0;
+}
+
+span.icon-bar {
+    border: 1px solid #FFF6F0;
 }
